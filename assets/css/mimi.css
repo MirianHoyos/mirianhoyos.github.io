@@ -1,0 +1,41 @@
+
+#nosotros { 
+     background: url(../img/imagenesnuevas/fondoseccion2.png) top right no-repeat;
+    background-size: 100%;
+
+}
+
+#nosotros2 {
+    background: url(../img/imagenesnuevas/fondoseccion3.png) bottom right no-repeat;
+    background-size: 100%;
+    margin-top: -1px;
+
+}
+.textoblanco {
+    color: #ffffff !important;
+}
+
+#textochico {
+    font-size: 15px;
+    font-weight: normal;
+}
+
+#descrpcioncurso {
+    background: url(../img/imagenesnuevas/fondoseccioncurso.png) center right no-repeat;
+    background-size: 100%;
+
+}
+
+#textocontenedor {
+background-color: #ffffff7d; 
+border-color: #ffffff7d; 
+border-width: 2px;
+border-style: solid;
+border-radius: 32px;
+padding-left: 30px;
+padding-top: 30px;
+padding-bottom: 30px;
+padding-right: 30px;
+
+
+} 
