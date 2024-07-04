@@ -16,8 +16,11 @@
 }
 
 #textochico {
-    font-size: 15px;
+    font-size: 18px;
     font-weight: normal;
+    width: 48%;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 #descrpcioncurso {
@@ -36,6 +39,108 @@ padding-left: 30px;
 padding-top: 30px;
 padding-bottom: 30px;
 padding-right: 30px;
-
+color: #ffffff;
+font-weight: bold;
 
 } 
+ 
+#fotonosotros1 {
+    margin-left: -110px;
+    margin-top: -58px;
+}
+
+.h1nuevo {
+    font-size: 45px !important;
+    font-weight: bold;
+
+}
+
+.h2nuevo {
+    font-weight: normal !important;
+    font-size: 30px !important;
+}
+
+
+
+.texto-naranja {
+    color: #EFAB2B !important; 
+}
+
+.texto-verde {
+    color: #154902 !important;
+}
+
+.fondo-naranja {
+    background-color: #EFAB2B !important; 
+}
+.fondo-verde {
+    background-color: #479e1e81;
+}
+
+
+.borde-naranja {
+    border-color: #EFAB2B !important; 
+}
+
+.pillblanca {
+    background: #ffffff26 !important; 
+    color: #ffffff !important;
+}
+
+#espaciodescripcion {
+    padding-left: 80px;
+}
+
+.borderedondos {
+    border-radius: 40px 40px 0px 0px !important;
+}
+
+#descanso {
+    width: 100%;
+    height: 627px;
+    background-image: url("./../img/imagenesnuevas/descanso1.png");
+    background-size: contain;
+}
+
+#aloevera {
+    background-image: url("./../img/imagenesnuevas/aloeverafondo.png");
+    background-size: 250px;
+    background-repeat: no-repeat;
+    background-position-x: right;
+}
+
+#descanso2 {
+    width: 100%;
+    height: 414px;
+    background-image: url("./../img/imagenesnuevas/descanso2.png");
+    background-size: contain;
+}
+
+.destacado {
+    font-weight: bold;
+}
+
+#faq {
+    background-color: #154902;
+}
+
+.borde1 {
+    border-radius: 20px 130px 0px 0px !important;
+}
+
+.borde2 {
+    border-radius: 130px 20px 0px 0px !important;
+}
+
+.borde3 {
+    border-radius: 0px 0px 130px 20px !important;
+}
+
+.borde4 {
+    border-radius: 0px 0px 20px 130px !important;
+}
+
+.footer-newsletter {
+    background-image: url("./../img/imagenesnuevas/newsletter.png"); 
+    background-size: contain;
+}
