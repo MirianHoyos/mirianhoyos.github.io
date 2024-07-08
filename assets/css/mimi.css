@@ -30,15 +30,6 @@
 }
 
 #textocontenedor {
-background-color: #ffffff7d; 
-border-color: #ffffff7d; 
-border-width: 2px;
-border-style: solid;
-border-radius: 32px;
-padding-left: 30px;
-padding-top: 30px;
-padding-bottom: 30px;
-padding-right: 30px;
 color: #ffffff;
 font-weight: bold;
 
@@ -143,4 +134,10 @@ font-weight: bold;
 .footer-newsletter {
     background-image: url("./../img/imagenesnuevas/newsletter.png"); 
     background-size: contain;
+}
+
+.pillcolor {
+    background: #17450710 !important; 
+    color: #539F1F !important;
+
 }
