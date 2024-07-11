@@ -587,7 +587,7 @@ h6 {
   background-color: color-mix(in srgb, var(--accent-color), transparent 97%);
   border: 1px solid color-mix(in srgb, var(--accent-color), transparent 85%);
   font-size: 16px;
-  color: var(--accent-color);
+  color: #539F1F;
   margin-right: 10px;
   transition: 0.3s;
 }
@@ -1484,7 +1484,7 @@ section,
   font-weight: 400;
   color: #ffffff;
   display: inline-block;
-  background-color: var(--accent-color);
+  background-color: #EFAB2B
 }
 
 .portfolio .portfolio-content .portfolio-info p {

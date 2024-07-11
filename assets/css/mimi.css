@@ -8,6 +8,17 @@
     background-size: 1672px
 }
 
+.fondoaloevera {
+    background: url(../img/imagenesnuevas/Fondoaloevera.png) top center no-repeat;
+    background-size: 1744px
+}
+
+.fondogaleria {
+    background: url(../img/imagenesnuevas/fondogaleria.png) top center no-repeat;
+    background-size: 2044px
+}
+
+
 #nosotros { 
      background: url(../img/imagenesnuevas/fondoseccion2.png) top right no-repeat;
     background-size: 100%;
@@ -209,4 +220,8 @@ footer {
 .beneficios p {
 font-size: 15px;
 color: #444444
+}
+
+.verdefooter {
+    color: #539F1F;
 }
