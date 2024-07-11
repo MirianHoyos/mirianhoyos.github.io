@@ -10,7 +10,9 @@
 
 .fondoaloevera {
     background: url(../img/imagenesnuevas/Fondoaloevera.png) top center no-repeat;
-    background-size: 1744px
+    background-size: 1744px;
+    margin-top: -60px;
+    padding-top: 120px;
 }
 
 .fondogaleria {
@@ -151,6 +153,7 @@ line-height: 48px;
 .footer-newsletter {
     background-image: url("./../img/imagenesnuevas/newsletter.png"); 
     background-size: contain;
+    background-position: center center;
 }
 
 footer {
@@ -232,8 +235,8 @@ color: #444444
 
 .macetasflotando {
     position: absolute;
-    top: -28%;
-    left: -14%;
+    top: -93%;
+    left: -29%;
 }
 
 .listadocontacto {
@@ -249,12 +252,43 @@ color: #444444
 }
 
 .titulocursoitem {
-    font-size: 25px;
+    font-size: 25px !important;
     color: #154902;
-    font-weight: bold;
+    font-weight: bold !important;
 }
 
 
 .seccionnosotros {
     border-radius: 0 170px 0 170px;
+}
+
+.post-img:hover::after {
+    opacity: 1;
+    transition: all ease-in-out 0.3s;
+}
+
+.post-img::after {
+    opacity: 0;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: rgba(71, 158, 30, 0.2);
+    display: block;
+    position: absolute;
+    top: 0;
+}
+
+@media only screen and (max-width: 576px) {
+    .h1nuevo {
+        font-size: 24px !important;
+    }
+    body {
+        line-height: 30px;
+    }
+    .about .content p {
+        line-height: inherit;
+    }
+    section, .section {
+        padding: 30px 0;
+    }
 }
