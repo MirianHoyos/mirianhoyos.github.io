@@ -33,9 +33,33 @@
 }
 
 #descrpcioncurso {
-    background: url(../img/imagenesnuevas/fondoseccioncurso.png) center right no-repeat;
-    background-size: 100%;
+    margin-left: 100px;
+    padding-right: 100px;
+    border-radius: 70px 0 0 0;
+    margin-top: 200px;
+    margin-bottom: 100px;
+    position: relative;
+}
 
+#descrpcioncurso::after {
+    content: "";
+    position: absolute;
+    width: calc(100% + 14px);;
+    height: 100%;
+    display: block;
+    top: 14px;
+    right: 0;
+    border-color: #2FBB30;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 70px 0 0 0;
+}
+
+.frutasflotantes {
+    position: absolute;
+    top: -64px;
+    left: -183px;
+    z-index: 99;
 }
 
 #textocontenedor {
