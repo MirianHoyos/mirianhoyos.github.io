@@ -72,7 +72,9 @@ line-height: 48px;
     font-size: 30px !important;
 }
 
-
+.texto-gris {
+    color: #444444 !important; 
+}
 
 .texto-naranja {
     color: #EFAB2B !important; 
@@ -87,6 +89,10 @@ line-height: 48px;
 }
 .fondo-verde {
     background-color: #479e1e81;
+}
+
+.fondo-verde-oscuro {
+    background-color: #154902;
 }
 
 
