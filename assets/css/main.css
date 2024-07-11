@@ -759,7 +759,6 @@ h6 {
 section,
 .section {
   color: var(--default-color);
-  background-color: var(--background-color);
   padding: 60px 0;
   scroll-margin-top: 98px;
   overflow: clip;
@@ -818,8 +817,7 @@ section,
   padding: 80px 0 60px 0;
   display: flex;
   align-items: center;
-  background: url(../img/imagenesnuevas/fondo1.png) top right no-repeat;
-  background-size: 100%;
+
 }
 
 .hero h1 {
@@ -1476,7 +1474,7 @@ section,
   inset: 0;
   z-index: 3;
   transition: all ease-in-out 0.3s;
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(71, 158, 30, 0.2);
   padding: 15px;
 }
 
@@ -1527,9 +1525,6 @@ section,
   opacity: 1;
 }
 
-.portfolio .portfolio-content:hover img {
-  transform: scale(1.1);
-}
 
 /*--------------------------------------------------------------
 # Testimonials Section
@@ -1826,8 +1821,12 @@ section,
 # Contact Section
 --------------------------------------------------------------*/
 .contact .info-item {
-  background: color-mix(in srgb, var(--default-color), transparent 96%);
+  background:#ffffff;
   padding: 30px;
+  border-color: #0D4520;
+  border-width: 1px;
+  border-style: solid;
+
 }
 
 .contact .info-item i {
@@ -1850,9 +1849,10 @@ section,
 }
 
 .contact .php-email-form {
-  background: color-mix(in srgb, var(--default-color), transparent 96%);
+  background: #154902;
   padding: 30px;
   height: 100%;
+  border-radius: 20px;
 }
 
 .contact .php-email-form .error-message {
@@ -1903,8 +1903,8 @@ section,
   box-shadow: none;
   border-radius: 0;
   color: var(--default-color);
-  background-color: color-mix(in srgb, var(--background-color), transparent 50%);
-  border-color: color-mix(in srgb, var(--default-color), transparent 80%);
+  background-color: color-mix(in srgb, var(--background-color), transparent 23%);
+  border-color: color-mix(in srgb, var(--default-color), transparent 23%);
 }
 
 .contact .php-email-form input[type=text]:focus,
@@ -1925,7 +1925,7 @@ section,
   border: 0;
   padding: 10px 30px;
   transition: 0.4s;
-  border-radius: 4px;
+  border-radius: 50px;
 }
 
 .contact .php-email-form button[type=submit]:hover {

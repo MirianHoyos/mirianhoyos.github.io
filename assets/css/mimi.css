@@ -1,3 +1,12 @@
+.fondoindex {
+    background: url(../img/imagenesnuevas/fondo1.png) top right no-repeat;
+    background-size: 100%;
+}
+
+.fondodetalle {
+    background: url(../img/imagenesnuevas/fondodetalle.png) top center no-repeat;
+    background-size: 1672px
+}
 
 #nosotros { 
      background: url(../img/imagenesnuevas/fondoseccion2.png) top right no-repeat;
@@ -32,6 +41,7 @@
 #textocontenedor {
 color: #ffffff;
 font-weight: bold;
+line-height: 48px;
 
 } 
  
@@ -90,7 +100,10 @@ font-weight: bold;
     width: 100%;
     height: 627px;
     background-image: url("./../img/imagenesnuevas/descanso1.png");
-    background-size: contain;
+    background-size: contain ;
+    background-position: center center;
+    background-repeat: no-repeat;
+    
 }
 
 #aloevera {
@@ -136,8 +149,64 @@ font-weight: bold;
     background-size: contain;
 }
 
+footer {
+    background-image: url("./../img/imagenesnuevas/hojafooter.png"); 
+    background-size: 240px;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+   
+}
+
+
+.copyright{
+    background-image: url("./../img/imagenesnuevas/frutillafooter.png"); 
+    background-size: 93px;
+    background-repeat: no-repeat;
+    background-position: -20px bottom;
+   
+}
+
+
 .pillcolor {
     background: #17450710 !important; 
     color: #539F1F !important;
 
+}
+
+.contacto1 {
+    border-radius: 20px 80px 0px 0px !important;
+}
+
+.contacto2 {
+    border-radius: 80px 20px 0px 0px !important;
+}
+
+.contacto3 {
+    border-radius: 0px 0px 80px 20px !important;
+}
+
+.contacto4 {
+    border-radius: 0px 0px 20px 80px !important;
+}
+
+.contenedorprincipal {
+    background-color: #EFEFEF;
+    border-radius: 20px;
+    color: #444444 
+
+}
+
+.titulodetalle {
+    font-size: 65px !important;
+}
+
+.beneficios h4 {
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.beneficios p {
+font-size: 15px;
+color: #444444
 }
