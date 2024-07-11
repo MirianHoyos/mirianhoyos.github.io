@@ -32,6 +32,10 @@
     margin-left: auto;
 }
 
+.textochicoancho {
+    width: 65%;
+}
+
 #descrpcioncurso {
     margin-left: 100px;
     padding-right: 100px;
@@ -303,14 +307,18 @@ color: #444444
 }
 
 .frutilla {
-    right: 30px;
+    right: -239px;
     top: 200px;
 
 }
 
 .lineasfondo {
     bottom: 14%;
-    left: -25%;
+    left: -67%;
+}
+
+body {
+    overflow-x: hidden;
 }
 
 @media only screen and (max-width: 576px) {
