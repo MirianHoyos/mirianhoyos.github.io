@@ -334,5 +334,8 @@ body {
     section, .section {
         padding: 30px 0;
     }
+    #textochico {
+        width: 100%;
+    }
 }
 
