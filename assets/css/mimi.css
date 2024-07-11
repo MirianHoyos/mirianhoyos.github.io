@@ -18,19 +18,6 @@
     background-size: 2044px
 }
 
-
-#nosotros { 
-     background: url(../img/imagenesnuevas/fondoseccion2.png) top right no-repeat;
-    background-size: 100%;
-
-}
-
-#nosotros2 {
-    background: url(../img/imagenesnuevas/fondoseccion3.png) bottom right no-repeat;
-    background-size: 100%;
-    margin-top: -1px;
-
-}
 .textoblanco {
     color: #ffffff !important;
 }
@@ -58,7 +45,7 @@ line-height: 48px;
  
 #fotonosotros1 {
     margin-left: -110px;
-    margin-top: -58px;
+    margin-top: -110px;
 }
 
 .h1nuevo {
@@ -230,4 +217,44 @@ color: #444444
 
 .verdefooter {
     color: #539F1F;
+}
+
+.teamcontenedor {
+    margin-right: 50px;
+    padding-left: 50px;
+    border-radius: 0 70px 0 0;
+}
+
+.swiper-slide-next .testimonial-item {
+    border-radius: 50px;
+    background-color: rgb(71, 158, 30, 40%);
+}
+
+.macetasflotando {
+    position: absolute;
+    top: -28%;
+    left: -14%;
+}
+
+.listadocontacto {
+    list-style: none;
+    padding: 0;
+}
+
+.listadocontacto li span {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 8px;
+    display: block;
+}
+
+.titulocursoitem {
+    font-size: 25px;
+    color: #154902;
+    font-weight: bold;
+}
+
+
+.seccionnosotros {
+    border-radius: 0 170px 0 170px;
 }
