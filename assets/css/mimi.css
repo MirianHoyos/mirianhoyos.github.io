@@ -278,6 +278,17 @@ color: #444444
     top: 0;
 }
 
+.frutilla {
+    right: 30px;
+    top: 200px;
+
+}
+
+.lineasfondo {
+    bottom: 14%;
+    left: -25%;
+}
+
 @media only screen and (max-width: 576px) {
     .h1nuevo {
         font-size: 24px !important;
@@ -292,3 +303,4 @@ color: #444444
         padding: 30px 0;
     }
 }
+
