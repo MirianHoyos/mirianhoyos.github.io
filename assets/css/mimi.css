@@ -24,10 +24,17 @@
     color: #ffffff !important;
 }
 
+.tituloprincipal {
+    font-weight: 900;
+    font-size: 45px !important;
+
+}
+
+
 #textochico {
     font-size: 18px;
     font-weight: normal;
-    width: 48%;
+    width: 55%;
     margin-right: auto;
     margin-left: auto;
 }
@@ -119,7 +126,6 @@ line-height: 48px;
 
 .pillblanca {
     background: #ffffff26 !important; 
-    color: #ffffff !important;
 }
 
 #espaciodescripcion {
@@ -252,13 +258,15 @@ color: #444444
 
 .teamcontenedor {
     margin-right: 50px;
+    margin-left: 50px;
     padding-left: 50px;
-    border-radius: 0 70px 0 0;
+    border-radius: 70px 70px 0 0 ;
 }
 
 .swiper-slide-next .testimonial-item {
-    border-radius: 50px;
-    background-color: rgb(71, 158, 30, 40%);
+    border: 1.5px solid ;
+    border-radius: 20px 100px 0px 0px;
+    border-color : #479E1E !important;
 }
 
 .macetasflotando {
@@ -281,10 +289,13 @@ color: #444444
 
 .titulocursoitem {
     font-size: 25px !important;
-    color: #154902;
+    color: #113704;
     font-weight: bold !important;
 }
 
+.nombrecurso1 {
+    font-size: 32px !important;
+}
 
 .seccionnosotros {
     border-radius: 0 170px 0 170px;
@@ -319,6 +330,34 @@ color: #444444
 
 body {
     overflow-x: hidden;
+}
+
+.botonsecundario {
+    background: #ffffff;
+    border: #ffffff !important;
+}
+
+
+.volantatitulo {
+    color: #479E1E;
+    font-size: 14px;
+    letter-spacing: 5px;
+    font-weight: bold !important;
+}
+
+.fechataller {
+    color: #154902 !important;
+    font-size: 28px !important;
+    font-weight: bold !important;
+}
+
+.volantaweb {
+    letter-spacing: 5px !important;
+}
+
+.textopagdetalle {
+    color: #154902a1 !important;
+    font-weight: normal !important;
 }
 
 @media only screen and (max-width: 576px) {

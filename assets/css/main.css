@@ -1331,6 +1331,7 @@ section,
 .pricing .btn-buy.btn-buy-hover {
   background: var(--accent-color);
   color: var(--contrast-color);
+  box-shadow: 0 8px 28px color-mix(in srgb, var(--accent-color), transparent 80%) !important; 
 }
 
 .pricing .featured {
