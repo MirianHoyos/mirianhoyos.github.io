@@ -256,6 +256,14 @@ color: #444444
     color: #539F1F;
 }
 
+
+#team {
+    background-image: url("./../img/imagenesnuevas/fondonaranja.png"); 
+    background-size: 997px;
+    background-repeat: no-repeat;
+    background-position: 1200px bottom;
+}
+
 .teamcontenedor {
     margin-right: 50px;
     margin-left: 50px;
@@ -358,6 +366,14 @@ body {
 .textopagdetalle {
     color: #154902a1 !important;
     font-weight: normal !important;
+}
+
+.botonhover:hover {
+    box-shadow: 0 8px 28px color-mix(in srgb, var(--accent-color), transparent 25%) !important;
+}
+
+.texto-medium {
+    font-weight: bolder;
 }
 
 @media only screen and (max-width: 576px) {
