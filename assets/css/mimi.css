@@ -377,12 +377,6 @@ body {
 }
 
 @media only screen and (max-width: 576px) {
-    .h1nuevo {
-        font-size: 24px !important;
-    }
-    body {
-        line-height: 30px;
-    }
     .about .content p {
         line-height: inherit;
     }
@@ -391,6 +385,51 @@ body {
     }
     #textochico {
         width: 100%;
+    }
+    .hero .img-fluid {
+        position: relative;
+    }
+    #fotonosotros1 {
+        margin-left: -50px;
+        margin-top: -60px;
+    }
+    .seccionnosotros {
+        margin-right: 1rem !important;
+        margin-left: 1rem !important;
+        width: calc(100% - 2rem);
+    }
+    #descrpcioncurso {
+        margin-left: 0;
+        padding-right: 0;
+        border-radius: 0;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        position: relative;
+        padding-bottom: 2rem;
+    }
+    #espaciodescripcion {
+        padding-left: calc(var(--bs-gutter-x)* .5);
+    }
+    #descrpcioncurso::after {
+        display: none;
+    }
+    .fondoaloevera {
+        background-image: none;
+    }
+    #aloevera {
+        background-image: none;
+    }
+    .footer-newsletter {
+        background-image: none;
+        background-color: #154902 !important;
+    }
+    .teamcontenedor {
+        padding-left: 0;
+    }
+    .macetasflotando {
+        top: -75%;
+        left: -19%;
+        width: 60%;
     }
 }
 
